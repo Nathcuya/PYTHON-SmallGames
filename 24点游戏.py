@@ -17,6 +17,7 @@ def calculate_24(numbers):
                 numbers[k] for k in range(len(numbers)) if k != i and k != j
             ]
             if (
+                
                 calculate_24([a + b] + rest_numbers)
                 or calculate_24([a - b] + rest_numbers)
                 or calculate_24([b - a] + rest_numbers)
