@@ -4,6 +4,7 @@ import sys
 import pygame
 import random
 
+
 '''游戏初始化'''
 
 def initGame():
